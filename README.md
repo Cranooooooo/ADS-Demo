@@ -24,7 +24,7 @@ The demo codes for:
 + `train.py`: continue training base on our pretrained models.
 
 Note: 
-#### (1) For Blocksci, if prepare data from scratch, you will need ~1.5TB storage and 64GB RAM requirement.
+#### (1) For Blocksci, if prepare data from scratch, you will need ~1.5TB storage and 64GB RAM.
 #### (2) The default case is a Hacker BTC address(`bc1q93ecep2338dy9aauwyvh4g22t49rnedxl8z0tj`) on the 2017 Binance hack incident.
 
 ### D1: result reproduce on three datasets (Please use env-1)
