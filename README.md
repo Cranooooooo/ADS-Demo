@@ -1,6 +1,6 @@
 # Evolve Path Tracer: Early Detection of Malicious Addresses in Bitcoin
 The demo codes for:
-+ D1: Result Reproduce on Three Datasets
++ D1: Result Reproduce on Three Datasets (Test only, Training data will be public after publication)
 + D2: Data Preparation for User Specified Address
 + D3: Prediction for User Specified Address
 
