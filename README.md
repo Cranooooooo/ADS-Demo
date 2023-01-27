@@ -15,7 +15,7 @@ The demo codes for:
 + `model/`: folder contains Evolve Path Tracer and related modules.
 + `path_related_tool_box/`: folder contains codes for data preparation.
 + `pre_process_data/`: folder contains training and testing data. (Decompress `pre_process_data.tar.gz` to get the folder)
-+ `blocksci_data/`: folder caontains Blocksci data we pre-processed. (Decompress `blocksci_data.tar.gz` to get the folder)
++ `blocksci_made_data_bk_up_2/`: folder caontains Blocksci data we pre-processed. (Decompress `blocksci_made_data.tar.gz` to get the folder)
 + `demo_performance_notebook.ipynb`: D1: result reproduce on three datasets.
 + `demo_path_prepare.ipynb`: D2: data preparation for user specified address.
 + `demo_user_specified_address_predict.ipynb`: D3: prediction for user specified address.
