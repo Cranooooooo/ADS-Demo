@@ -72,7 +72,6 @@ def score_reliable_f1(score_list, predict_list):
     '''
     1. Find the time when the prediction after that point will not change (reliable point --> r_p)
     2. reward early r_p, punish bad performance
-
     return a list rather than a score
     each element: reliable_rate * f1_score
     reliable_rate: how many addresses' predictions won't change after that point
@@ -221,10 +220,8 @@ class LossWrapper(torch.nn.Module):
             out['Reliable_F1'] = 0.
 
         # Visualization Processing
-        plotting(former_hazard_list.view(23, 5).detach().cpu().numpy())
+        if former_hazard_list.shape[1] == 1:
+            plotting(former_hazard_list.view(23, 5).detach().cpu().numpy())
 
         if return_pred_switch: return out, survival_predict_history, labels
         else: return out
-
-
-
