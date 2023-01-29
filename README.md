@@ -5,6 +5,8 @@ The demo codes for:
 + D3: Prediction for User Specified Address
 
 ## Requirements
+Please download pre-process-data and blocksci-made-data from:
+https://drive.google.com/drive/folders/1PB5O9VfsajaOfD5vlhBSwAvprKRQuXUF?usp=sharing
 + For D1 and D3, please use `requirement_env_1.txt`.
 + For D2, please use `requirement_env_2.txt`.
 
