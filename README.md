@@ -7,8 +7,10 @@ The demo codes for:
 ## Requirements
 Please download pre-process-data and blocksci-made-data from:
 https://drive.google.com/drive/folders/1PB5O9VfsajaOfD5vlhBSwAvprKRQuXUF?usp=sharing
-+ For D1 and D3, please use `requirement_env_1.txt`.
-+ For D2, please use `requirement_env_2.txt`.
++ For D1 and D3, please create an environment with `requirement_env_1.txt` .
++ For D2, please create an environment with `requirement_env_2.txt`.
+`conda activate env-1`
+`pip3 install -r requirement_env_1.txt`
 
 ## Usage
 ### Folder and File Description
