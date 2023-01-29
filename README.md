@@ -9,6 +9,7 @@ Please download pre-process-data and blocksci-made-data from:
 https://drive.google.com/drive/folders/1PB5O9VfsajaOfD5vlhBSwAvprKRQuXUF?usp=sharing
 
 `conda activate env-1`
+
 `pip3 install -r requirement_env_1.txt`
 
 + For D1 and D3, please create an environment with `requirement_env_1.txt` .
